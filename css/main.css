@@ -1,0 +1,134 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+[class^=slider] { 
+	display: inline-block; 
+	margin-bottom: 10px; /* height of the sliders */
+}
+.output{ 
+	color: "black"; 
+	font-size: 14px; 
+	padding-top: 1px; 
+	margin-left: 5px; 
+	vertical-align: top;
+}
+h1{ 
+	font-size: 20px; 
+	text-align: center;
+}
+h2{ 
+	clear: both; 
+	margin: 0; 
+	margin-bottom: 5px; 
+	font-size: 16px; 
+}
+span.tableSpan {
+    float: right;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+table{
+	border: none;
+	border-collapse: collapse;
+}
+table.measuresTable{
+	width: 70%;
+	border: 0.5px solid grey;
+}
+.tableInSpan {
+	float: right;
+}
+tr, th{
+	height: 25px;
+	border: 0.3px solid grey;
+}
+.rowButtons{
+	height: 30px;
+	border: none;
+}
+td, th{
+	text-align: left;
+	border: 0.3px solid grey;
+	padding-left:  10px;
+	padding-right: 10px;
+}
+td.tdButtons, td.tdLabels, td.tdControls{
+	height: 19px;
+	border: none;
+	padding-left:  1px;
+	padding-right: 1px;
+}
+td.tdLabels{
+	padding-left: 30px;
+	padding-right: 10px;
+}
+p{ 
+	font-size: 15px; 
+	margin-bottom: 30px; 
+}
+.variableID{
+	vertical-align: top; 
+	text-align: right;
+	width: 60px;
+	float: left;
+}
+.variableID:hover{
+	background-color:#D8D8D8;
+}
+.variableID:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 30px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 320px;
+}
+.variable{
+	float: left;
+    width: 420px;
+    margin-right: 10px;
+}
+#content {
+	width: 880px;
+	margin: 0 auto;
+	padding: 10px;
+}
+path {
+  stroke:black;
+  stroke-width: 0.5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 180px;                  
+  height: 15px;                 
+  padding: 2px;             
+  font-size: 12px;     
+  background: #FFFFE0;
+  border: 1px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}  
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}      
+
